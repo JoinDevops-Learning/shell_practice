@@ -6,4 +6,11 @@ if [ $USERID -ne 0 ]; then
     exit 1
 fi
 echo "installing nginx web server"
-dnf install -y nginx
+dnf install -y nginxxx
+
+if [ $? -ne 0 ]; then
+    echo "nginx installed failed"
+    exit 1
+else
+    echo "nginx installation success"
+fi
