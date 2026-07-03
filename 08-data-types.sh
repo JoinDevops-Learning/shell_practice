@@ -5,3 +5,8 @@ NUM1=balu
 NUM2=20
 SUM=$((NUM1 + NUM2))
 echo "sum of $NUM1 and $NUM2 is $SUM"
+
+# array
+FRUITS=("apple" "banana" "mango")
+echo "fruits are ${FRUITS[@]}"
+echo "first fruit is ${FRUITS[0]}"
