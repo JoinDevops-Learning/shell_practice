@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e # this will stop the script if any command fails
-trap `echo "error occured at line no: $LINENO, command: $BASH"` ERR
+
+trap 'echo "error occured at line no: $LINENO, command: $BASH_COMMAND"' ERR
 
 echo "hello world"
 echo "i am learning shell scripting"
