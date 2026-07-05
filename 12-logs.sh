@@ -18,7 +18,7 @@ fi
 }
 
 
-dnf install -y nginx & >> $LOGS_FILE
+dnf install -y nginx &>>$LOGS_FILE
 VALIDATE $? "installing nginx"
 
 dnf install mysql-server -y & >> $LOGS_FILE
