@@ -6,4 +6,4 @@ echo "I am in: $COUNTRY"
 echo "PID of SCRIPT-1: $$"
 
 #sh 22-script-2.sh
-source ./23-script-2.sh #current directory ./
+source ./23-script2.sh #current directory ./
