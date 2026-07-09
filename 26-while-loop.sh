@@ -11,6 +11,6 @@
 #  done
 
 while IFS= read -r line; do #internal field separator, read line by line from the file
-  Process each line here
+  #Process each line here
  echo "$line"
 done < 22-script1.sh # input which file to read
